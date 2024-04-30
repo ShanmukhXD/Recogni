@@ -1,7 +1,7 @@
 import cv2 #Remember to run  pip install opencv-python  in Command Prompt to install Python's OpenCV package
 
 def recogni():
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
         print("Error: Could not open webcam. Please make sure the camera is connected and accessible.")
